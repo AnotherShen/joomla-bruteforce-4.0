@@ -1,7 +1,7 @@
 # joomla-bruteforce
 Joomla login bruteforce
 
-Tested on Joomla! 3.8.8
+Tested on Joomla! 4.2.5
 
 Usage:
 
