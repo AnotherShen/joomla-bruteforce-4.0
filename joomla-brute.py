@@ -94,7 +94,7 @@ class Joomla():
             }
             r = requests.post(self.url, data = data, proxies=self.proxy, cookies=self.cookies, headers=headers)
             soup = BeautifulSoup(r.text, 'html.parser')
-            response = soup.find('div', {'class': 'alert-message'})
+            response = soup.find('div', {'class': 'alert alert-message'})
             if response:
                 if self.verbose:
                     print(f'{bcolors.FAIL} {self.username}:{password}{bcolors.ENDC}')
